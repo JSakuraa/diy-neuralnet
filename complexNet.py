@@ -131,7 +131,7 @@ def main():
     network = NeuralNetwork()
     network.train(data, all_y_trues)
     # Test a couple of pokemon
-    tests = ["Zubat", "Groudon"]
+    tests = ["Wurmple", "Palkia"]
     test_names, test_data = pkmn.getTests(tests)
     wormple = test_data[0, :]
     palkia = test_data[1, :]
